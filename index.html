@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/responsive.css">
+    <link rel="stylesheet" href="./themify-icons/themify-icons.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap" rel="stylesheet">
+
+    <title>Music player</title>
+</head>
+<body>
+    <div class="app-container">
+        <div class="dashboard">
+            <p class="now-playing-text active">Now playing:</p>
+            <div class="cd">
+                <div class="cd-thumb"></div>
+            </div>
+            <div class="title">
+                <p class="song">Tình Yêu Ngủ Quên</p>
+                <p class="singer">HOÀNG TÔN (ft. LyHan)</p>
+            </div>
+            <div class="app-btn">
+                <div class="time">
+                    <p class="time-progress">00:00</p>
+                    <p class="time-song">3:25</p>
+                </div>
+                <div class="progress-container">
+                    <div class="progress">
+                        <div class="fill">
+                </div>
+                    </div>
+                    <div class="thumb"></div>
+                </div>
+                <div class="music-player-btn">
+                    <div class="status-btn" status="no-loop">
+                        <i class="ti-loop loop-btn"></i>
+                        <i class="ti-control-shuffle shuffle-btn"></i>
+                    </div>
+                    <i class="ti-control-skip-backward previous-btn"></i>
+                    <div class="pause-play-btn pause">
+                        <i class="ti-control-play play-btn"></i>
+                        <i class="ti-control-pause pause-btn"></i>
+                    </div>
+                    <i class="ti-control-skip-forward next-btn"></i>
+                    <div class="volume">
+                        <i class="ti-volume volume-btn"></i>
+                        <div class="volume-progress">
+                            <div class="volume-fill"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <audio class="audio" src=""></audio>
+
+        <div class="playlist">
+        </div>
+
+    </div>
+
+    <script src="./script/script.js"></script>
+    
+</body>
+</html>
