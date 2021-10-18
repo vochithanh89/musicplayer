@@ -209,7 +209,7 @@ i {
     position: absolute;
     top: 25%;
     left: 25%;
-    background-image: url('../img/images.png');
+    background-image: url('https://github.com/vochithanh89/musicplayer/blob/main/img/images.png?raw=true');
     background-size: cover;
     width: 50%;
     height: 50%;

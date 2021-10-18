@@ -340,7 +340,7 @@ function playMusic() {
     updateProgress();
     cdAnimation.play();
     let playingItem = $('.playlist-item.active .cd-animation');
-    playingItem.style.backgroundImage = `url('../img/icon-playing.gif')`;
+    playingItem.style.backgroundImage = `url('https://github.com/vochithanh89/musicplayer/blob/main/img/icon-playing.gif?raw=true')`;
 }
 
 function pauseMusic() {
@@ -349,7 +349,7 @@ function pauseMusic() {
     audio.pause();
     cdAnimation.pause();
     let playingItem = $('.playlist-item.active .cd-animation');
-    playingItem.style.backgroundImage = `url('../img/images.png')`;
+    playingItem.style.backgroundImage = `url('https://github.com/vochithanh89/musicplayer/blob/main/img/images.png?raw=true')`;
 }
 
 
