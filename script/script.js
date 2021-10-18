@@ -289,9 +289,9 @@ function dragAndDropProgress() {
                 audio.currentTime = audio.duration / 100 * percent;
             }
         }
-        document.onmouseup = e => {
-            dragging = false;
-        }
+    document.onmouseup = e => {
+        dragging = false;
+    }
     // Touch Event    
     document.ontouchmove = function(e) {
         if (dragging) {
@@ -312,15 +312,26 @@ function dragAndDropProgress() {
 
     thumb.ontouchstart = function() {
         dragging = true;
+        scrolling(false);
     }
     
     document.ontouchend = function() {
         thumb.style['box-shadow'] = '0 0 0 6px rgba(100, 148, 237, 0.2)';
         dragging = false;
+        scrolling(true);
     }
 
 }
 
+function scrolling(isScrolling=true) {
+    let body = $('body');
+    if (isScrolling) {
+        body.style.overflow = 'initial';
+    }
+    else {
+        body.style.overflow = 'hidden';
+    }
+}
 
 function playMusic() {
     pausePlayBtn.classList.remove('pause');
@@ -329,7 +340,7 @@ function playMusic() {
     updateProgress();
     cdAnimation.play();
     let playingItem = $('.playlist-item.active .cd-animation');
-    playingItem.style.backgroundImage = "url('../img/icon-playing.gif')"
+    playingItem.style.backgroundImage = `url('../img/icon-playing.gif')`;
 }
 
 function pauseMusic() {
@@ -338,7 +349,7 @@ function pauseMusic() {
     audio.pause();
     cdAnimation.pause();
     let playingItem = $('.playlist-item.active .cd-animation');
-    playingItem.style.backgroundImage = "url('../img/images.png')"
+    playingItem.style.backgroundImage = `url('../img/images.png')`;
 }
 
 

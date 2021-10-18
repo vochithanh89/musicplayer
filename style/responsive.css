@@ -4,61 +4,35 @@
         margin: 0;
         width: 100%;
         height: 100%;
-        padding: 20px;
+        padding: 24px;
+        padding-bottom: 0;
     }
     .app-container .dashboard {
         width: 100%;
         top: 0;
-        padding: 20px;
+        padding: 24px;
+        padding-bottom: 0;
+        border-radius: 0;
     }
 
-    .app-container .now-playing-text {
-        font-size: 20px;
-    }
+  
 
     .app-container .playlist {
-        margin-top: 480px;
+        margin-top: 390px;
     }
 
-    .app-container .song-item {
-        font-size: 18px;
-    }
-
-    .app-container .singer-item {
-        font-size: 16px;
-    }
 
     .app-container .cd {
-        width: 220px;
+        width: 200px;
     }
 
     .app-container .cd-item {
-        width: 60px;
-        height: 60px;
-    }
-
-    .app-container .song {
-        font-size: 22px;
-    }
-
-    .app-container .singer {
-        font-size: 18px;
-    }
-
-    .app-container .time {
-        font-size: 18px;
+        width: 50px;
+        height: 50px;
     }
 
     .app-container .progress-container {
         margin-top: 16px;
-    }
-
-    .app-container .progress {
-        height: 10px;
-    }
-
-    .app-container .fill {
-        height: 10px;
     }
 
     .app-container .thumb {
@@ -68,12 +42,7 @@
     }
 
     .app-container .music-player-btn {
-        font-size: 30px;
+        font-size: 24px;
         margin-top: 20px;
-    }
-
-    .app-container .pause-play-btn {
-        width: 60px;
-        height: 60px;
     }
 }
