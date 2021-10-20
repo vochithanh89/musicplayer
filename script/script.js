@@ -4,7 +4,7 @@ let data = [
         singer: "Masew, Huyền Tâm Môn",
         song: "Phố Đã Lên Đèn",
         ["img-cd"]: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/9/7/8/d/978d12830c18df95c26e93e658019166.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/33dbfdebe3aa0af453bb/4457018915500166957?authen=exp=1634549007~acl=/33dbfdebe3aa0af453bb/*~hmac=8d9e9c61d0c10620898c977fc918ab21&fs=MTYzNDM3NjIwNzk5MXx3ZWJWNHw4LjIxLjExLjEyMA"
+        ["audio-scr"]: "./assets/musics/Phố Đã Lên Đèn.mp3"
     },
 
     {
@@ -12,7 +12,7 @@ let data = [
         singer: "JSOL",
         song: "Giá Như Em Nhìn Lại",
         ["img-cd"]: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/3/f/0/a/3f0a8d23baee0c632d2a06221726cc53.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/a406e6efc2a82bf672b9/2218406033048065497?authen=exp=1634551300~acl=/a406e6efc2a82bf672b9/*~hmac=08a8d8334c8a98193d84ca7c0c41e860&fs=MTYzNDM3ODUwMDA3NXx3ZWJWNHw4LjIxLjExLjEyMA"
+        ["audio-scr"]: "./assets/musics/GIÁ NHƯ EM NHÌN LẠI.mp3"
     },
 
     {
@@ -20,7 +20,7 @@ let data = [
         singer: "MONSTAR",
         song: "có hẹn với thanh xuân",
         ["img-cd"]: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/e/2/3/f/e23ff2faaa64eebfc57e0acde247f0db.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/67bdbe2c376ade34877b/7120856401733841793?authen=exp=1634370274~acl=/67bdbe2c376ade34877b/*~hmac=58cd618faf088a3d7cdad122c294533e&fs=MTYzNDE5NzQ3NDIxOHx3ZWJWNHw4LjIxLjExLjEyMA"
+        ["audio-scr"]: "./assets/musics/có hẹn với thanh xuân.mp3"
     },
 
     {
@@ -28,15 +28,15 @@ let data = [
         singer: "Da LAB",
         song: "Từ Ngày Em Đến",
         ["img-cd"]: "https://i.ytimg.com/vi/AmvA-XJF0j8/maxresdefault.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/efad11d2c99620c87987/2245834307933820373?authen=exp=1634370502~acl=/efad11d2c99620c87987/*~hmac=d27a974cdbe9c6af87898c32ad0e6b2b&fs=MTYzNDE5NzmUsICwMjUzN3x3ZWJWNHw4LjIxLjExLjEyMA"
+        ["audio-scr"]: "./assets/musics/Từ Ngày Em Đến.mp3"
     },
 
     {
         id: 4,
-        singer: "Soobin Hoàng Sơn",
-        song: "Xin Đừng Lặng Im",
-        ["img-cd"]: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_png/covers/1/e/1ebc5f3387b2179e25e55d6208b16b04_1500952255.png",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/3cedeac33387dad98396/8127820420268223686?authen=exp=1634550837~acl=/3cedeac33387dad98396/*~hmac=4e22c0f901ce834b384940ea73cfaad7&fs=MTYzNDM3ODAzNzMxMnx3ZWJWNHw4LjIxLjExLjEyMA"
+        singer: "Da LAB",
+        song: "Thanh Xuân",
+        ["img-cd"]: "https://kenh14cdn.com/2018/12/16/thanhxuan-cover-1544915818312881281206.jpg",
+        ["audio-scr"]: "./assets/musics/Thanh Xuân.mp3"
     },
 
     {
@@ -44,7 +44,7 @@ let data = [
         singer: "Soobin Hoàng Sơn",
         song: "Nếu Ngày Ấy",
         ["img-cd"]: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/2/9/b/f/29bf1c15a2aeacf72a2fa1e84d92f3e9.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/659ad76efc2915774c38/9154281717259436772?authen=exp=1634551028~acl=/659ad76efc2915774c38/*~hmac=13e5839c8bfe954889496220f8991737&fs=MTYzNDM3ODIyODUzNXx3ZWJWNHw4LjIxLjExLjEyMA"
+        ["audio-scr"]: "./assets/musics/NẾU NGÀY ẤY.mp3"
     },
 
     {
@@ -52,23 +52,23 @@ let data = [
         singer: "Hoàng Dũng",
         song: "Tôi Là Ai Trong Em",
         ["img-cd"]: "https://data.chiasenhac.com/data/cover/137/136512.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/68eda39901dde883b1cc/6409415337736237136?authen=exp=1634551112~acl=/68eda39901dde883b1cc/*~hmac=ad3cf94eb8623e8b084b370ee9bfcb32&fs=MTYzNDM3ODMxMjgyOXx3ZWJWNHw4LjIxLjExLjEyMA"
+        ["audio-scr"]: "./assets/musics/Tôi Là Ai Trong Em.mp3"
     },
 
     {
         id: 7,
         singer: "Hoàng Dũng",
-        song: "Đôi Lời",
-        ["img-cd"]: "https://i.ytimg.com/vi/pm-X_mVxQDo/maxresdefault.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/999abd116b55820bdb44/3280504621895968928?authen=exp=1634369933~acl=/999abd116b55820bdb44/*~hmac=80e353a99a8823cdff38499957dded07&fs=MTYzNDE5NzEzMzM5NXx3ZWJWNHw4LjIxLjExLjEyMA"
+        song: "Vùng Ký Ức",
+        ["img-cd"]: "https://i.scdn.co/image/ab67616d0000b2730d9d8dbbf23b4dfdad685982",
+        ["audio-scr"]: "./assets/musics/Vùng Ký Ức.mp3"
     },
 
     {
         id: 8,
-        singer: "Thế Bảo",
+        singer: "Thế Bảo - Hoàng Dũng",
         song: "Về Phía Mưa",
-        ["img-cd"]: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/covers/3/f/3fb2db6cccf4a23383383394b28b2b31_1509416446.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/5c8008b2d3f63aa863e7/5103899201367301689?authen=exp=1634551514~acl=/5c8008b2d3f63aa863e7/*~hmac=16cc9953bf252315797d2ead928ef2d2&fs=MTYzNDM3ODmUsICxNDEwMHx3ZWJWNHw4LjIxLjExLjEyMA"
+        ["img-cd"]: "https://avatar-ex-swe.nixcdn.com/song/2018/08/21/2/7/e/5/1534818562411_640.jpg",
+        ["audio-scr"]: "./assets/musics/Về Phía Mưa.mp3"
     },
 
     {
@@ -76,7 +76,7 @@ let data = [
         singer: "Phương Ly",
         song: "Anh Là Ai",
         ["img-cd"]: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/0/8/0/6/0806ea1c463042079f3fc0316d2032b0.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/66f306f43fb3d6ed8fa2/2631979061389853487?authen=exp=1634551586~acl=/66f306f43fb3d6ed8fa2/*~hmac=39ebaf6fe75aa1fcc96c470210bfd2a8&fs=MTYzNDM3ODmUsIC4Njk2M3x3ZWJWNHw4LjIxLjExLjEyMA"
+        ["audio-scr"]: "./assets/musics/Anh Là Ai.mp3"
     },
 
     {
@@ -84,7 +84,7 @@ let data = [
         singer: "Phương Ly, JustaTee",
         song: "Mặt Trời Của Em",
         ["img-cd"]: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/covers/1/9/19c8d9340b18111044e084d806335fd9_1509176983.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/64d9e2e639a2d0fc89b3/5367828857673443509?authen=exp=1634551761~acl=/64d9e2e639a2d0fc89b3/*~hmac=a8ebd7b7b6e583b151206b4ff9a9ff6d&fs=MTYzNDM3ODk2MTUxMHx3ZWJWNHw4LjIxLjExLjEyMA"
+        ["audio-scr"]: "./assets/musics/Mặt Trời Của Em.mp3"
     },
 
     {
@@ -92,7 +92,7 @@ let data = [
         singer: "JustaTee, Phương Ly",
         song: "Thằng Điên",
         ["img-cd"]: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/9/d/5/c/9d5c56a277a06a48ec7956a4fd17e4c1.jpg",
-        ["audio-scr"]: "https://mp3-s1-m-zmp3.zadn.vn/6a7f4f5c9c1875462c09/6915996016203233196?authen=exp=1634551826~acl=/6a7f4f5c9c1875462c09/*~hmac=42c0a2d73c4618bebca956024e82d1bf&fs=MTYzNDM3OTAyNjmUsICzM3x3ZWJWNHw4LjIxLjExLjEyMA"
+        ["audio-scr"]: "./assets/musics/THẰNG ĐIÊN.mp3"
     },
 ]
 
@@ -131,7 +131,7 @@ let cdAnimation = cd.animate([
 );
 
 cdAnimation.pause();
-audio.volume = 0.2;
+audio.volume = 0.3;
 
 start();
 
@@ -142,6 +142,7 @@ function start() {
     playPauseMusic();
     clickProgress();
     dragAndDropProgress();
+    volumeChange()
     statusMusic();
     nextMusicBtn();
     previousMusicBtn();
@@ -401,22 +402,14 @@ function statusMusic() {
         switch (status) {
             case 'no-loop':
                 statusBtn.setAttribute('status', 'loop');
-                loopBtn.style.display = 'initial';
-                loopBtn.style.opacity = '1';
-                shuffleBtn.style.display = 'none';
                 isRandom = false;
                 break;
             case 'loop':
                 statusBtn.setAttribute('status', 'shuffle');
-                loopBtn.style.display = 'none';
-                shuffleBtn.style.display = 'initial';
                 isRandom = true;
                 break;
             case 'shuffle':
                 statusBtn.setAttribute('status', 'no-loop');
-                loopBtn.style.display = 'initial';
-                loopBtn.style.opacity = '0.6';
-                shuffleBtn.style.display = 'none';
                 isRandom = false;
                 break;
         }
@@ -470,4 +463,18 @@ function selectMusic() {
             playMusic();
         }
     })
+}
+
+function volumeChange() {
+    let volumeBtn = $('.volume-btn');
+    volumeBtn.onclick = () => {
+        if(volumeBtn.classList.contains('mute')) {
+            volumeBtn.classList.remove('mute');
+            audio.volume = 0.2;
+        }
+        else {
+            volumeBtn.classList.add('mute');
+            audio.volume = 0;
+        }
+    }
 }

@@ -114,13 +114,21 @@ i {
     border-radius: 20px;
 }
 
-.app-container .shuffle-btn{
+.app-container .status-btn[status="no-loop"] .loop-btn {
+    display: initial;
+    color: var(--app-color);
+    opacity: 0.6;
+}
+
+.app-container .status-btn[status="no-loop"] .shuffle-btn,
+.app-container .status-btn[status="loop"] .shuffle-btn,
+.app-container .status-btn[status="shuffle"] .loop-btn{
     display: none;
 }
 
-.app-container .loop-btn {
+.app-container .status-btn[status="loop"] .loop-btn,
+.app-container .status-btn[status="shuffle"] .shuffle-btn {
     color: var(--app-color);
-    opacity: 0.6;
 }
 
 .app-container .pause-play-btn {
@@ -266,5 +274,10 @@ i {
     box-shadow: 0 0 0 10px rgba(100, 148, 237, 0.2);
     display: initial;
 }
+
+.volume-btn.mute {
+    opacity: 0.6;
+}
+
 
 
