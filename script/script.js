@@ -94,6 +94,14 @@ let data = [
         ["img-cd"]: "https://photo-resize-zmp3.zadn.vn/w240_r1x1_jpeg/cover/9/d/5/c/9d5c56a277a06a48ec7956a4fd17e4c1.jpg",
         ["audio-scr"]: "./assets/musics/THẰNG ĐIÊN.mp3"
     },
+
+    {
+        id: 12,
+        singer: "Rhymastic Ft. Mai Ngô",
+        song: "Không Phải Tại Nó",
+        ["img-cd"]: "https://i.ytimg.com/vi/UdhUVx9fe_w/maxresdefault.jpg",
+        ["audio-scr"]: "./assets/musics/Không Phải Tại Nó.mp3"
+    }
 ]
 
 let $ = document.querySelector.bind(document);
