@@ -15,7 +15,9 @@
         border-radius: 0;
     }
 
-  
+    * {
+        cursor: unset !important;
+    }
 
     .app-container .playlist {
         margin-top: 390px;
